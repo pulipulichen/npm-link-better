@@ -8,7 +8,9 @@
     "npm-link-quick": "bin/quick.js",
     "nlq": "bin/quick.js",
     "npm-link-save": "bin/save.js",
-    "nls": "bin/save.js"
+    "nls": "bin/save.js",
+    "npm-link-remove": "bin/remove.js",
+    "nlr": "bin/remove.js"
   },
   "bugs": {
     "url": "https://github.com/pulipulichen/npm-link-better/issues"
