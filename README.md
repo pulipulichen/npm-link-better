@@ -56,7 +56,6 @@ npm-link-better --quick
 nlq
 ```
 
-
 # Copy dependency to local node_module
 ```
 npm-link-better --copy <dependency>
