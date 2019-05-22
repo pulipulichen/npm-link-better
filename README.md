@@ -40,6 +40,13 @@ npm-link-better --save <dependency>
 nls <dependency>
 ```
 
+# Install dependency at specific version and link it
+```
+npm-link-better --save <dependency>@<version>
+# or
+nls <dependency>@<version>
+```
+
 # Copy dependency to local node_module
 ```
 npm-link-better --copy <dependency>

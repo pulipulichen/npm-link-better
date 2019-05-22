@@ -1,32 +1,60 @@
 {
-  "name": "@pulipuli.chen/npm-link-better",
-  "version": "1.0.1",
-  "description": "npm link alternative",
-  "main": "index.js",
+  "version": "1.0.7",
   "bin": {
-    "npm-link-better": "copy.js"
+    "npm-link-better": "bin/index.js",
+    "nlb": "bin/index.js",
+    "npm-link-copy": "bin/copy.js",
+    "nlc": "bin/copy.js",
+    "npm-link-quick": "bin/quick.js",
+    "nlq": "bin/quick.js",
+    "npm-link-save": "bin/save.js",
+    "nls": "bin/save.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pulipulichen/npm-link-better/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "debounce-queue": "^0.3.0",
+    "fs-extra": "^7.0.1",
+    "global-modules": "^2.0.0",
+    "node-watch": "^0.6.0",
+    "yargs": "^12.0.5"
+  },
+  "deprecated": false,
+  "description": "npm link alternative",
+  "devDependencies": {
+    "mochista": "^0.20.2",
+    "proxyquire": "^2.1.0"
+  },
+  "homepage": "https://github.com/pulipulichen/npm-link-better#readme",
+  "main": "lib",
+  "name": "@pulipuli.chen/npm-link-better",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulipulichen/npm-link-better.git"
   },
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pulipulichen/npm-link-better.git"
   },
   "keywords": [
     "npm",
     "link",
     "save"
   ],
-  "author": "Pulipuli Chen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pulipulichen/npm-link-better/issues"
+  "author": {
+    "name": "laggingreflex",
+    "url": "https://www.npmjs.com/~laggingreflex"
   },
-  "homepage": "https://github.com/pulipulichen/npm-link-better#readme"
+  "contributors": [
+    {
+      "author": "Pulipuli Chen",
+      "email" : "pulipuli.chen@gmail.com", 
+      "url" : "http://blog.pulipuli.info/"
+    }
+  ],
+  "license": "MIT"
 }
