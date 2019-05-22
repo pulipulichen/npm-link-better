@@ -14,21 +14,33 @@ Formerly [npm-link-quick], [npm-link-save], and [npm-link-copy] all now combined
 ## Install
 
 ```
-npm install --global npm-link-better
+npm install --global @pulipuli.chen/npm-link-better
 ```
 
 ## Usage
 
+# Install dependencies from package.json
+```
+npm-link-better
+# or
+nls
+```
+
+# Link dependencies without download and install
 ```
 npm-link-better --quick
 # or
 nlq
 ```
+
+# Install dependency and link it
 ```
 npm-link-better --save <dependency>
 # or
 nls <dependency>
 ```
+
+# Copy dependency to local node_module
 ```
 npm-link-better --copy <dependency>
 # or
