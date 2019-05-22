@@ -2,9 +2,11 @@
 
 [npm link] with extra features, such as:
 
-* `--quick` to link without installing dependencies
-
 * `--save` (/`--saveDev`/`Peer`/`Optional`) to save the linked dependency in your package.json.
+
+* `--remove` to remove installing dependencies
+
+* `--quick` to link without installing dependencies
 
 * `--copy` to copy files individually instead of linking
 
