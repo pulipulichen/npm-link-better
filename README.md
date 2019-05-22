@@ -26,13 +26,6 @@ npm-link-better
 nls
 ```
 
-# Link dependencies without download and install
-```
-npm-link-better --quick
-# or
-nlq
-```
-
 # Install dependency and link it
 ```
 npm-link-better --save <dependency>
@@ -46,6 +39,21 @@ npm-link-better --save <dependency>@<version>
 # or
 nls <dependency>@<version>
 ```
+
+# Remove dependency
+```
+npm-link-better --remove <dependency>
+# or
+nlr <dependency>
+```
+
+# Link dependencies without download and install
+```
+npm-link-better --quick
+# or
+nlq
+```
+
 
 # Copy dependency to local node_module
 ```
