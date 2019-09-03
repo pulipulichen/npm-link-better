@@ -16,7 +16,8 @@ Formerly [npm-link-quick], [npm-link-save], and [npm-link-copy] all now combined
 ## Install
 
 ```
-npm install --global @pulipuli.chen/npm-link-better
+npm install --global @pulipuli.chen/npm-link-better -g
+npm update --global @pulipuli.chen/npm-link-better -g
 ```
 
 ## Usage
