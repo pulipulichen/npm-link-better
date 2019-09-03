@@ -1,5 +1,8 @@
 # npm-link-better
 
+- Project: https://github.com/pulipulichen/npm-link-better
+- Issues: https://github.com/pulipulichen/npm-link-better/issues
+
 [npm link] with extra features, such as:
 
 * `--save` (/`--saveDev`/`Peer`/`Optional`) to save the linked dependency in your package.json.
