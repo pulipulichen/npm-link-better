@@ -19,7 +19,8 @@ Formerly [npm-link-quick], [npm-link-save], and [npm-link-copy] all now combined
 ## Install
 
 ```
-npm install --global @pulipuli.chen/npm-link-better
+npm install --global @pulipuli.chen/npm-link-better -g
+npm update --global @pulipuli.chen/npm-link-better -g
 ```
 
 ## Usage
@@ -70,3 +71,22 @@ nlc <dependency>
 [npm-link-copy]: https://github.com/laggingreflex/npm-link-copy
 [npm-link-quick]: https://github.com/laggingreflex/npm-link-quick
 [npm-link-save]: https://github.com/laggingreflex/npm-link-save
+
+----
+
+# For development
+
+## Login
+````
+npm adduser
+````
+
+## First publish
+````
+npm publish --access public
+````
+
+## Following publish
+```
+npm publish
+```
