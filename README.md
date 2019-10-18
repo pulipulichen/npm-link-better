@@ -2,6 +2,7 @@
 
 - Project: https://github.com/pulipulichen/npm-link-better
 - Issues: https://github.com/pulipulichen/npm-link-better/issues
+- NPM: https://www.npmjs.com/package/@pulipuli.chen/npm-link-better
 
 [npm link] with extra features, such as:
 
@@ -71,22 +72,3 @@ nlc <dependency>
 [npm-link-copy]: https://github.com/laggingreflex/npm-link-copy
 [npm-link-quick]: https://github.com/laggingreflex/npm-link-quick
 [npm-link-save]: https://github.com/laggingreflex/npm-link-save
-
-----
-
-# For development
-
-## Login
-````
-npm adduser
-````
-
-## First publish
-````
-npm publish --access public
-````
-
-## Following publish
-```
-npm publish
-```
